@@ -2,6 +2,8 @@
 
 This is a program that allows a user to make deposits, withdrawals, and print a bank statement that displays her transaction history and current balance.
 
+![Bank Diagram](Untitled Diagram.png)
+
 ## Getting Started
 
 Clone or download repository from git@github.com:NoelleDL/BankTechTestPractice.git
