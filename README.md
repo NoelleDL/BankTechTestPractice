@@ -2,7 +2,7 @@
 
 This is a program that allows a user to make deposits, withdrawals, and print a bank statement that displays her transaction history and current balance.
 
-![Domain Model](BankAccountDiagram.png)
+![alt-text](BankAccountDiagram.png)
 
 ## Getting Started
 
