@@ -8,6 +8,32 @@ This is a program that allows a user to make deposits, withdrawals, and print a 
 
 Clone or download repository from git@github.com:NoelleDL/BankTechTestPractice.git
 
+## Installation and Testing
+
+Install the gems: 
+
+```gem install rspec rubocop simplecov```
+
+Run tests:
+
+```rspec``` and ```rubocop```
+
+## How to Use
+The app runs in a REPL such as IRB or Pry. In your REPL, you can run the following commands:
+
+Account
+
+#new - creates a new instance of the Account class with an @transactions array which starts off empty
+#deposit(money, date) - add money to account
+#withdraw(money, date) - take out money from account
+
+Statement
+
+#new - creates a new instance of the Statement class
+#header - creates the header for the balance statement
+#transaction_history(account) - takes an instance of the Account class which has the @transactions attribute
+#print_statement - displays header and transaction history, line by line.
+
 ## User Stories
 
 ```
