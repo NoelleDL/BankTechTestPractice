@@ -25,6 +25,7 @@ I would like to deposit money to my account.
 So that as a customer
 I can verify activity on my account,
 I would like to print transaction history that displays the current balance.
+```
 
 ## Getting Started
 
