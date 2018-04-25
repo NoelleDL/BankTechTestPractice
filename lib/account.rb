@@ -12,7 +12,8 @@ attr_reader :balance, :date, :transactions
   end
 
   def withdraw(money, date = Time.now.strftime("%d/%m/%Y"))
-    @balance -= money
-    @transactions << {date: date, credit: nil, debit: money, balance: @balance }
+    fail 'Insufficient funds' if money > @balance
+      @balance -= money
+      @transactions << {date: date, credit: nil, debit: money, balance: @balance }
   end
 end
