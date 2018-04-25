@@ -23,8 +23,8 @@ The app runs in a REPL such as IRB or Pry. In your REPL, you can run the followi
 
 Account
 
-#new - creates a new instance of the Account class with an @transactions array which starts off empty
-#deposit(money, date) - add money to account
+#new - creates a new instance of the Account class with an @transactions array which starts off empty<br>
+#deposit(money, date) - add money to account<br>
 #withdraw(money, date) - take out money from account
 
 Statement
